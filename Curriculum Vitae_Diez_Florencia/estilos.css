@@ -1,0 +1,90 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "1955-Black Italic";
+    src: url("fuentes/1955 Black Italic.otf");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "1955-Black";
+    src: url("fuentes/1955 Black.otf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "1955-Light Italic";
+    src: url("fuentes/1955 Light Italic.otf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "1955-Light";
+    src: url("fuentes/1955 Light.otf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "1955-Medium Italic";
+    src: url("fuentes/1955/ Medium Italic.otf Italic.otf");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "1955-Medium";
+    src: url("fuentes/1955 Medium.otf.otf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "1955-Thin Italic";
+    src: url("fuentes/1955/ Thin Italic.otf Italic.otf");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "1955-Thin";
+    src: url("fuentes/1955 Thin.otf.otf");
+    font-weight: 100;
+    font-style: normal;
+}
+
+nav a {
+    text-decoration: none;         
+    color: rgb(189, 189, 189);   
+    font-family: '1955-Medium';
+} 
+
+nav a:hover {
+    color:greenyellow;
+}
+
+header section {
+    line-height: 0.9;
+    display: flex;
+    flex-direction: column; 
+}
+
+h1 {
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;    
+    padding-top: 0;
+}
+
+
+* {
+font-family: '1955-Light'; font-weight: 300; font-style: normal;
+}
